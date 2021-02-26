@@ -1,0 +1,91 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url(junglebook/background.jfif) no-repeat fixed center;
+    background-size:cover;
+}
+.container{
+    text-align: center;
+}
+.menu{
+    position: fixed;
+    background-color: burlywood;
+    width: 100%;
+    z-index: 10;
+    margin-top: 10px;
+    left: 0;
+}
+.links{
+    display: inline;
+    font-size: 30px;
+    font-family: monospace;
+    padding-left: 25px;
+    padding-right: 25px;
+     
+}
+li a{
+    color: brown;
+}
+.links:hover{
+    font-size: 35px;
+    
+}
+
+#home{
+   margin-top: 80px;
+}
+
+#home img{
+    width: 800px;
+}
+#row1 img{
+    width:200px;
+    height: 200px;
+    border:solid;
+    padding:2px;
+}
+#row2 img{
+    width: 200px;
+    height:200px;
+    border:solid;
+    padding:2px;
+}
+#myCarousel
+{
+    background-color: darkkhaki;
+}
+#myCarousel img
+{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color :darkgreen ;
+    font-size: 20px;
+    font-family: cursive;
+}
+#contact
+{
+background: burlywood;
+}
+
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1{
+    margin-top:55px;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    color: white;
+    text-shadow: none;
+}
